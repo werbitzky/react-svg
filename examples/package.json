@@ -1,5 +1,5 @@
 {
-  "name": "examples",
+  "name": "react-svg examples",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,5 +25,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "keywords": [
+    "dom",
+    "html",
+    "images",
+    "img",
+    "javascript",
+    "react",
+    "scalable vector graphics",
+    "svg",
+    "svginjector",
+    "typescript"
+  ]
 }

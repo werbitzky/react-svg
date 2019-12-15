@@ -1,8 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { ReactSVG } from 'react-svg'
 
-ReactDOM.render(
+export default () => (
   <ReactSVG
     src="svg.svg"
     beforeInjection={svg => {
@@ -17,6 +16,5 @@ ReactDOM.render(
       const [firstGElement] = [...svg.querySelectorAll('g')]
       firstGElement.setAttribute('fill', 'blue')
     }}
-  />,
-  document.getElementById('root')
+  />
 )

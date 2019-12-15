@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import ReactDOM from 'react-dom'
 import Spinner from 'react-spinkit'
 import { ReactSVG } from 'react-svg'
 
@@ -12,7 +11,7 @@ Loading.propTypes = {
   size: PropTypes.number.isRequired
 }
 
-ReactDOM.render(
+export default () => (
   <React.Fragment>
     <ReactSVG loading={() => <Loading size={40} />} src="svg.svg" />
     <ReactSVG
@@ -20,6 +19,5 @@ ReactDOM.render(
       loading={() => <Loading size={60} />}
       src="notfound.svg"
     />
-  </React.Fragment>,
-  document.getElementById('root')
+  </React.Fragment>
 )

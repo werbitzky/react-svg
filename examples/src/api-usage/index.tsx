@@ -1,8 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { ReactSVG } from 'react-svg'
 
-ReactDOM.render(
+export default () => (
   <ReactSVG
     src="svg.svg"
     afterInjection={(error, svg) => {
@@ -25,6 +24,5 @@ ReactDOM.render(
     onClick={() => {
       console.log('wrapper onClick')
     }}
-  />,
-  document.getElementById('root')
+  />
 )

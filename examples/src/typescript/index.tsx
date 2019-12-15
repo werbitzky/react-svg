@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
 import { ReactSVG } from 'react-svg'
 
-ReactDOM.render(<ReactSVG src="svg.svg" />, document.getElementById('root'))
+// TODO (Tane): Do we need this any more, now examples is a TS repo?
+export default () => <ReactSVG src="svg.svg" />

@@ -3,7 +3,7 @@ import React from 'react'
 import Spinner from 'react-spinkit'
 import { ReactSVG } from 'react-svg'
 
-const Loading = ({ size }) => (
+const Loading: React.FC<{ size: number }> = ({ size }) => (
   <Spinner name="cube-grid" style={{ height: size, width: size }} />
 )
 

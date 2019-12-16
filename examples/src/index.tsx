@@ -1,21 +1,17 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-function App() {
-  return (
+const App = () => (
+  <div>
+    <h1>react-svg examples</h1>
     <div>
-      <h1>react-svg examples</h1>
-      <div>
-        <p>{`
-          This is an example project of how to use downshift to build
-          enhanced input experiences (autocomplete, dropdown, etc).
-          Open a file in the examples directory within codesandbox and
+      <p>{`
+          Open a file in the examples directory within CodeSandbox and
           then toggle the "Current Module View" in the upper-right of
           the browser preview.
         `}</p>
-      </div>
     </div>
-  )
-}
+  </div>
+)
 
 render(<App />, document.getElementById('root'))
